@@ -6,4 +6,23 @@
     </a>
 </p>
 
-ACPT can automatically obtain the paper address of the conference/journal in the dblp paper database, and automatically download the pdf file of the paper and the pdf file of the speech manuscript from the official conference address
+ACPT can automatically obtain the paper address of the conference/journal in the dblp paper database, and automatically download the pdf file of the paper and the pdf file of the speech manuscript from the official conference address.
+
+自动化收集论文工具箱，能够自动对可访问的会议或期刊官网中的收录论文进行下载，为科研工作者批量查找和下载大量论文提供便利，修改配置文件即可实现目标会议的指定年限论文集自动下载工作。
+
+## Preview
+
+![ACPT result](./img/ACPT.png "ACPT result")
+
+## Install
+
+## Usage
+
+## Guide
+
+## Contributing
+Feel free to dive in!
+[Open new issue](https://github.com/linwhitehat/ACPT4dblp/issues/new) or submit PRs.
+
+## License
+[MIT](LICENSE) © linwhitehat
