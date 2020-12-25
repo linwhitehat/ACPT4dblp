@@ -18,6 +18,14 @@ ACPT can automatically obtain the paper address of the conference/journal in the
 
 ## Usage
 
+## Note
+
+The default configuration and processing logic are designed according to the official website structure published by usenix. If you need the configuration of other journals or conference websites, there are two solutions.
+
+1. Modify the logic yourself
+
+2. [Submit](https://github.com/linwhitehat/ACPT4dblp/issues/new) the target conference or journal that needs to be crawled, and I will add it to the toolkit (requires free time)
+
 ## Guide
 
 ## Contributing
