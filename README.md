@@ -54,7 +54,7 @@ ACPT can automatically obtain the paper address of the conference/journal in the
     
         - topic_path: focus of conference papers on the dblp_url page
         - paper_path: title of the conference paper in the dblp_url page
-        - paper_link_path: paper on the dblp_url page points to the link address of the conference official website
+        - paper_link_path: paper on the dblp_url page points to the link address of the official website
     
     - file
     
@@ -72,7 +72,8 @@ ACPT can automatically obtain the paper address of the conference/journal in the
         
 ### run
 
-    Please ensure that the config file and the ACPT.py file are in the same file directory, and then execute the ACPT program in the python3 environment until the program ends.
+    Please ensure that the config file and the ACPT.py file are in the same file directory。
+    Then execute the ACPT program in the python3 environment until the program ends.
     
 ``` shell
     python3 ACPT.py
