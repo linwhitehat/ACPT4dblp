@@ -1,0 +1,20 @@
+[basic]
+c_service_dir = D:/chrome-driver/chromedriver.exe
+years = [2018-2020]
+dblp_url = https://dblp.uni-trier.de/db/conf/nsdi/nsdi
+
+[xpath]
+topic_path = /html/body/div[2]//header/h2/text()
+paper_path = /html/body/div[2]//ul//li/cite/span[@class="title"]/text()
+paper_link_path = /html/body/div[2]//ul[@class="publ-list"]//li/nav/ul/li[1]/div[1]/a/@href
+
+[file]
+paper_pdf_path = /html/body/div[2]/main/section/div[3]/article/div/div[5]/div[3]/div/div/span/a/@href
+ppt_pdf_path = /html/body/div[2]/main/section/div[3]/article/div/div[5]/div[4]/div/div/div/a/@href
+
+[file_option]
+paper_pdf_path_option = /html/body/div[2]/main/section/div[3]/article/div/div/div[6]/div[3]/div/div/span/a/@href
+ppt_pdf_path_option = /html/body/div[2]/main/section/div[3]/article/div/div/div[6]/div[4]/div/div/div/a/@href
+
+[save]
+file_path = F:/NSDI/
