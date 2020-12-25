@@ -2,7 +2,7 @@
 
 <p align="center">
     <a href="https://github.com/linwhitehat/ACPT4dblp">
-        <img alt="GitHub manifest version" src="https://img.shields.io/github/manifest-json/v/linwhitehat/ACPT4dblp?color=%23EA4AAA&label=Github&logo=github&logoColor=%23EA4AAA">
+        <img alt="GitHub manifest version" src="https://img.shields.io/github/v/release/linwhitehat/ACPT4dblp?color=%23EA4AAA&label=Github&logo=github&logoColor=%23EA4AAA">
     </a>
 </p>
 
@@ -24,11 +24,19 @@ ACPT can automatically obtain the paper address of the conference/journal in the
 2. Dependency
 
     - chrome browser
-    - chromedriver.exe
+    - [chromedriver.exe](https://chromedriver.chromium.org/downloads)
     - dependency library
         - selenium
+        
+        pip install selenium
+        
         - requests
+        
+        pip install requests
+        
         - lxml
+        
+        pip install lxml
         
 3. ACPT
 
