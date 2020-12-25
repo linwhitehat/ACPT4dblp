@@ -16,7 +16,25 @@ ACPT can automatically obtain the paper address of the conference/journal in the
 
 ## Install
 
+1. Application Environment
 
+    - Windows 10 x64
+    - Python 3
+    
+2. Dependency
+
+    - chrome browser
+    - chromedriver.exe
+    - dependency library
+        - selenium
+        - requests
+        - lxml
+        
+3. ACPT
+
+    - Get the program
+        - Use GitHub's cloning method to download the source code
+        - Get the compressed package file (.zip) from the [release]()
 
 ## Usage
 
