@@ -74,9 +74,9 @@ ACPT can automatically obtain the paper address of the conference/journal in the
 
     Please ensure that the config file and the ACPT.py file are in the same file directory, and then execute the ACPT program in the python3 environment until the program ends.
     
-    ``` shell
+``` shell
     python3 ACPT.py
-    ```
+```
 
 ## Note
 
