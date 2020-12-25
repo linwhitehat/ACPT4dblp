@@ -26,25 +26,53 @@ ACPT can automatically obtain the paper address of the conference/journal in the
     - chrome browser
     - [chromedriver.exe](https://chromedriver.chromium.org/downloads)
     - dependency library
-        - selenium
+        - selenium (pip install selenium)
         
-        pip install selenium
+        - requests (pip install requests)
         
-        - requests
-        
-        pip install requests
-        
-        - lxml
-        
-        pip install lxml
+        - lxml (pip install lxml)
         
 3. ACPT
 
     - Get the program
         - Use GitHub's cloning method to download the source code
-        - Get the compressed package file (.zip) from the [release]()
+        - Get the compressed package file (.zip) from the [release](https://github.com/linwhitehat/ACPT4dblp/releases)
 
 ## Usage
+
+### config
+
+    Please fill in the following content in the configuration file according to the actual situation.
+
+    - basic
+    
+        - c_service_dir: chromedriver storage path
+        - years: range of the year when the paper was obtained
+        - dblp_url: link address of conference or journal in dblp
+    
+    - xpath
+    
+        - topic_path: focus of conference papers on the dblp_url page
+        - paper_path: title of the conference paper in the dblp_url page
+        - paper_link_path: paper on the dblp_url page points to the link address of the conference official website
+    
+    - file
+    
+        - paper_pdf_path: paper download link address on the conference website
+        - ppt_pdf_path: PPT download link address of the paper presentation on the conference official website
+    
+    - file_option
+    
+        - paper_pdf_path: paper download link address on the conference website
+        - ppt_pdf_path: PPT download link address of the paper presentation on the conference official website
+    
+    - save
+    
+        - file_path: local storage path of the paper and PPT
+        
+### run
+
+    Please execute ACPT.py in python3 environment and wait until the program ends.
 
 ## Note
 
