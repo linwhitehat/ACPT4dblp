@@ -41,6 +41,7 @@ ACPT can automatically obtain the paper address of the conference/journal in the
     - If you are using Firefox browser, you can also download firefoxfdriver to replace chromedriver, please pay attention to the code adjustment at this time.
     
 4. Problems.
+     
      If your network environment is unable to access the resources on the target website, it will cause problems such as slow acquisition speed, abnormalities or errors.
      
     - Delay
